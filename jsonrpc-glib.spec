@@ -19,7 +19,8 @@ Source0:        https://download.gnome.org/sources/%{name}/%{url_ver}/%{name}-%{
 BuildRequires:  gtk-doc
 BuildRequires:  meson
 BuildRequires:  vala
-BuildRequires:  python-six python3-six
+BuildRequires:  python-six 
+BuildRequires:  python2-six
 
 BuildRequires:  pkgconfig(glib-2.0)
 BuildRequires:  pkgconfig(gobject-introspection-1.0)
