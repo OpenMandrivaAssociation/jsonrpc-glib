@@ -7,7 +7,7 @@
 %define url_ver	%(echo %{version}|cut -d. -f1,2)
 
 Name:           jsonrpc-glib
-Version:	3.40.0
+Version:	3.42.0
 Release:	1
 Summary:        A JSON-RPC library for GLib
 Group:		System/Libraries
@@ -16,18 +16,15 @@ License:        LGPLv2+
 URL:            https://git.gnome.org/browse/jsonrpc-glib/
 Source0:        https://download.gnome.org/sources/%{name}/%{url_ver}/%{name}-%{version}.tar.xz
 
-BuildRequires:  gtk-doc
+BuildRequires:  pkgconfig(gi-docgen)
 BuildRequires:  meson
 BuildRequires:  vala
 BuildRequires:  python-six 
-BuildRequires:  python2-six
 
 BuildRequires:  pkgconfig(glib-2.0)
 BuildRequires:  pkgconfig(gobject-introspection-1.0)
 BuildRequires:  pkgconfig(json-glib-1.0)
 BuildRequires:  pkgconfig(vapigen)
-
-
 
 %description
 Jsonrpc-GLib is a JSON-RPC library for GLib. It includes support for
