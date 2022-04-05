@@ -90,7 +90,7 @@ developing applications that use %{name}.
 
 %files -n %devname
 %doc CONTRIBUTING.md
-%doc %{_datadir}/gtk-doc/html/jsonrpc-glib/
+#doc #{_datadir}/gtk-doc/html/jsonrpc-glib/
 %{_datadir}/gir-1.0/Jsonrpc-%{api}.gir
 %{_datadir}/vala/vapi/jsonrpc-glib-%{api}.*
 %{_includedir}/jsonrpc-glib-%{api}/
