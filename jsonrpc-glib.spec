@@ -8,7 +8,7 @@
 
 Name:           jsonrpc-glib
 Version:	3.44.0
-Release:	3
+Release:	4
 Summary:        A JSON-RPC library for GLib
 Group:		System/Libraries
 
