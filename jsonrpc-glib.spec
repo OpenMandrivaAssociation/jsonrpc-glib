@@ -7,8 +7,8 @@
 %define url_ver	%(echo %{version}|cut -d. -f1,2)
 
 Name:           jsonrpc-glib
-Version:	3.44.0
-Release:	4
+Version:	3.44.1
+Release:	1
 Summary:        A JSON-RPC library for GLib
 Group:		System/Libraries
 
