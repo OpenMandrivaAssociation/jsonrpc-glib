@@ -8,7 +8,7 @@
 
 Name:           jsonrpc-glib
 Version:	3.44.2
-Release:	2
+Release:	3
 Summary:        A JSON-RPC library for GLib
 Group:		System/Libraries
 
@@ -67,15 +67,12 @@ developing applications that use %{name}.
 %prep
 %autosetup -p1
 
-
 %build
 %meson -D enable_gtk_doc=true
 %meson_build
 
-
 %install
 %meson_install
-
 
 %check
 #meson_test
